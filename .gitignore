@@ -1,0 +1,9 @@
+azurerm.tf
+terraform.tfstate.backup
+terraform.tfstate
+/.terraform
+.terraform.lock.hcl
+main.tfplan
+service-principal.json
+ssh_key.pem
+.terraform.tfstate.lock.info

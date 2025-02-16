@@ -206,7 +206,7 @@ resource "azurerm_linux_virtual_machine" "my_terraform_vm" {
 
 # This will create a file with the private key needed for connection
 resource "local_file" "my-keys" {
-  content = azapi_resource_action.ssh_public_key_gen.output.privateKey
+  content  = azapi_resource_action.ssh_public_key_gen.output.privateKey
   filename = "${path.module}/ssh_key.pem"
 }
 
